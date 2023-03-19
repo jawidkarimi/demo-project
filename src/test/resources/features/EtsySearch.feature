@@ -6,12 +6,14 @@ Feature: Etsy search functionality
     Then user should see title as expected
     #expectedTitle: Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone
 
+  @smoke @test1
   Scenario: Etsy Search Functionality Title Verification (without parameterization)
     Given user is on the Etsy homepage
     When User types Wooden Spoon in the search box
     And user click to Etsy search button
     Then User sees Wooden Spoon is in the title
 
+    @regression @test2
   Scenario: Etsy Search Functionality Title Verification (with parameterization)
     Given user is on the Etsy homepage
     When User types "Wooden Spoon" in the search box
