@@ -13,7 +13,7 @@ Feature: Etsy search functionality
     And user click to Etsy search button
     Then User sees Wooden Spoon is in the title
 
-    @regression @test2
+  @regression @test2
   Scenario: Etsy Search Functionality Title Verification (with parameterization)
     Given user is on the Etsy homepage
     When User types "Wooden Spoon" in the search box

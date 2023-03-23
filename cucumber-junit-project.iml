@@ -71,7 +71,6 @@
     <orderEntry type="library" name="Maven: io.netty:netty-transport-native-kqueue:osx-x86_64:4.1.60.Final" level="project" />
     <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.3" level="project" />
     <orderEntry type="library" name="Maven: com.typesafe.netty:netty-reactive-streams:2.0.4" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
     <orderEntry type="library" name="Maven: com.sun.activation:jakarta.activation:1.2.2" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-manager:4.8.1" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-safari-driver:4.8.1" level="project" />
@@ -81,6 +80,23 @@
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:android:1.23" level="project" />
     <orderEntry type="library" name="Maven: com.github.mifmif:generex:1.0.2" level="project" />
     <orderEntry type="library" name="Maven: dk.brics.automaton:automaton:1.11-8" level="project" />
+    <orderEntry type="library" name="Maven: io.github.bonigarcia:webdrivermanager:5.3.2" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:2.0.6" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.10.1" level="project" />
+    <orderEntry type="library" name="Maven: com.github.docker-java:docker-java:3.2.14" level="project" />
+    <orderEntry type="library" name="Maven: com.github.docker-java:docker-java-core:3.2.14" level="project" />
+    <orderEntry type="library" name="Maven: com.github.docker-java:docker-java-api:3.2.14" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-compress:1.21" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.64" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.64" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.30" level="project" />
+    <orderEntry type="library" name="Maven: com.github.docker-java:docker-java-transport-httpclient5:3.2.14" level="project" />
+    <orderEntry type="library" name="Maven: com.github.docker-java:docker-java-transport:3.2.14" level="project" />
+    <orderEntry type="library" name="Maven: net.java.dev.jna:jna:5.12.1" level="project" />
+    <orderEntry type="library" name="Maven: org.brotli:dec:0.1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents.client5:httpclient5:5.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents.core5:httpcore5:5.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents.core5:httpcore5-h2:5.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:cucumber-junit:7.3.2" level="project" />
     <orderEntry type="library" name="Maven: org.apiguardian:apiguardian-api:1.1.2" level="project" />
     <orderEntry type="library" name="Maven: io.cucumber:cucumber-core:7.3.2" level="project" />
@@ -100,14 +116,14 @@
     <orderEntry type="library" name="Maven: me.jvt.cucumber:reporting-plugin:7.3.0" level="project" />
     <orderEntry type="library" name="Maven: io.cucumber:gherkin:23.0.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: net.masterthought:cucumber-reporting:5.7.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.velocity:velocity-engine-core:2.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: joda-time:joda-time:2.10.10" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-io:commons-io:2.7" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.7" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.plexus:plexus-utils:3.3.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.jsoup:jsoup:1.14.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer:20211018.2" level="project" />
