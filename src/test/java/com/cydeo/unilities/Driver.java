@@ -17,19 +17,26 @@ public class Driver {
     private Driver(){}
 
     private static WebDriver driver; // default value = null
+    private static String browserType;
 
     public static WebDriver getDriver(){
 
-        if(driver == null){
+        if(driver == null) {
+            if(System.getProperty("BROWSER")==null){
+            browserType = ConfigurationReader.getProperty("browser");
+            } else {
+                browserType=System.getProperty("BROWSER");
+            }
+            System.out.println("Remote: " + browserType);
 
-            String browserType = ConfigurationReader.getProperty("browser");
 
             switch (browserType){
 
                 case "remote-chrome":
                     try {
-                        String gridAddress = "http://54.176.114.140";
-                        URL url = new URL(gridAddress+":4444/wd/hub");
+                        //assign your grid server address
+                        String gridAddress = "52.53.148.211";
+                        URL url = new URL("http://"+gridAddress+":4444/wd/hub");
                         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
                         desiredCapabilities.setBrowserName("chrome");
                         driver = new RemoteWebDriver(url,desiredCapabilities);
@@ -38,6 +45,18 @@ public class Driver {
                     }
                     break;
 
+                case "remote-firefox":
+                    try {
+                        //assign your grid server address
+                        String gridAddress = "52.53.148.211";
+                        URL url = new URL("http://"+gridAddress+":4444/wd/hub");
+                        DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
+                        desiredCapabilities.setBrowserName("firefox");
+                        driver = new RemoteWebDriver(url,desiredCapabilities);
+                    }catch (Exception e){
+                        e.printStackTrace();
+                    }
+                    break;
 
                 case "chrome":
                     ChromeOptions options = new ChromeOptions();
