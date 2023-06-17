@@ -20,3 +20,4 @@ Feature: Etsy search functionality
     And user click to Etsy search button
     Then User sees "Wooden spoon - Etsy" is in the title
 
+
